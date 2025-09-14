@@ -1,7 +1,7 @@
 RNA Structure Prediction – Kaggle (Stanford)
 
-This repository contains my work for the Stanford-hosted Kaggle competition on RNA structure prediction
- (Ribonanza). The goal of the competition is to predict the 3D structure of RNA molecules from their nucleotide sequences.
+This repository contains my work for the [Stanford-hosted Kaggle competition on RNA structure prediction
+ (Ribonanza)]([url](https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding)). The goal of the competition is to predict the 3D structure of RNA molecules from their nucleotide sequences.
 
 Overview
 
