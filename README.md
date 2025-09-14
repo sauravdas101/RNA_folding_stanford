@@ -26,7 +26,8 @@ Combines competition data with large-scale pretrained knowledge for better gener
 
 Both approaches are implemented in separate Jupyter notebooks (.ipynb files) within this repository.
 
-Repository Structure
+## Repository Structure  
+
 .
 ├── GNN_RNA_Structure.ipynb        # GNN-based RNA structure prediction
 ├── Boltzmann_RNA_Structure.ipynb  # Boltzmann model approach
@@ -43,7 +44,28 @@ To run the notebooks, install the required dependencies:
 ```bash
 #!/bin/bash
 pip install -r requirements.txt
-ls -l
+```
+Key libraries used:
+
+torch, torch-geometric (for GNNs)
+
+transformers (Hugging Face Boltzmann model)
+
+numpy, pandas, matplotlib (data handling and visualization)
+
+Results & Insights
+
+The GNN model captures structural constraints by focusing on geometric relationships.
+
+The Boltzmann model benefits from transfer learning, leveraging large pretrained embeddings.
+
+Together, these experiments provide insights into how physics-inspired constraints and pretrained models can complement each other in RNA 3D structure prediction.
+
+Acknowledgements
+
+Stanford University and Kaggle for hosting the RNA structure prediction competition.
+
+Hugging Face for providing pretrained Boltzmann models.
 
 
 
