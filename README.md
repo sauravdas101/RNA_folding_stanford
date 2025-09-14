@@ -43,4 +43,8 @@ To run the notebooks, install the required dependencies:
 ```bash
 #!/bin/bash
 pip install -r requirements.txt
+ls -l
+
+
+
 
