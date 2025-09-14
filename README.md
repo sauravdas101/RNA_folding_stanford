@@ -40,6 +40,7 @@ The dataset comes from the official Kaggle competition, hosted by Stanford. Due 
 Requirements
 
 To run the notebooks, install the required dependencies:
-
+```bash
+#!/bin/bash
 pip install -r requirements.txt
 
